@@ -1,0 +1,36 @@
+body{
+    background-image: url(../forum-images/clouds.jpg);
+    background-size: cover;
+    position: relative;
+    cursor:url('../images/vintage-cursor.png'), auto;
+}
+h1, h2, p{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border: 20px solid grey;
+}
+a{
+    cursor:url('../images/pointer.png'), auto;
+}
+
+button{
+    background-color: grey;
+    width: 5%;
+    text-align: left;
+    padding: 5px;
+    margin: 2px;
+    cursor:url('../images/pointer.png'), auto;
+    
+}
+
+footer{
+    background-color: grey;
+    bottom: 0;
+}
+#hero{
+    text-align: center;
+}

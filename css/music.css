@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+body{
+    background-color: grey;
+    font-family: sans-serif;
+    line-height: 2;
+    min-height: 100vh;
+    display: grid;
+
+}
+
+.music-slide{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 125px;
+    margin: 0 auto;
+}
+
+.social-link{
+    color: black;
+    opacity: .55;
+    font-size: 1.15em;
+}
+
+.social-link:hover,
+.social-link:focus {
+    opacity: 1;
+}
